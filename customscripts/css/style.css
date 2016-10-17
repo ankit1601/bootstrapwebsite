@@ -6,6 +6,17 @@ body {
 	background-size: cover;
 	font-family: 'Bree Serif', serif;
 }
+/*common files*/
+.textAlign {
+	text-align: justify;
+}
+
+.textColor {
+	color: white;
+}
+.blackBackground{
+	background-color:black;
+}
 /*Navbar custom styles starts here*/
 #navColor {
 	background: #801c1c;
@@ -31,7 +42,7 @@ nav ul li a {
 }
 
 #searchOption {
-	width: 200px;
+	width: 100px;
 	float: left;
 }
 
@@ -39,12 +50,13 @@ nav ul li a {
 	#dropDownColor li a {
 		color: white;
 	}
-
-	#myProfile {
-		width: 100%;
-		padding: 0;
+	#changeRightNav{
 		float: left;
 	}
+	#searchOption{
+		float: left;
+	}
+}
 
 }
 
@@ -125,11 +137,6 @@ nav ul li a {
 
 	#slide5 {
 		background: url('./../../images/carousel/carousel4medium.jpg') top center no-repeat;
-	}
-
-	/*this on design page*/
-	#myCarousel2 {
-		display: none;
 	}
 
 }
@@ -310,44 +317,6 @@ ul.unstyled li a {
 
 /*footer custom styles ends here*/
 
-/*common files*/
-.textAlign {
-	text-align: justify;
-}
-
-.textColor {
-	color: white;
-}
-.blackBackground{
-	background-color:black;
-}
-
-/*Code for parallax effect*/
-
-/*#parent{
-height: 100vh;
-overflow-y:auto;
-overflow-x: hidden;
--webkit-overflow-scrolling:touch;
--webkit-perspective:1px;
-perspective: 1px;
-
-}
-
-.parallax{
--webkit-transform-style:preserve-3d;
-transform-style: preserve-3d;
-}
-
-
-.back{
--webkit-transform-style:translateZ(-1px) scale(2);
-transform:translateZ(-1px) scale(2);
-}
-.front{
-position: relative;
-z-index: 2;
-}*/
 /*Design page effects*/
 #designs {
 	text-align: center;
@@ -369,11 +338,4 @@ z-index: 2;
 }
 #alignCenter{
 	text-align: center;
-}
-
-@media (max-width:767px) {
-	#designs {
-		display: none;
-	}
-
 }
